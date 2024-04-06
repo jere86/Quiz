@@ -1,0 +1,39 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 330px;
+  width: 80%;
+  max-width: 800px;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+
+  label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    width: 80%;
+
+    input {
+      text-align: center;
+      padding: 0.25rem 0;
+    }
+
+    select {
+      padding: 0.25rem 0.5rem;
+    }
+  }
+
+  button {
+    width: fit-content;
+    align-self: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
